@@ -1,24 +1,24 @@
-# Next.js Counter App
+# Aplikasi Counter Next.js
 
-A simple counter application built with Next.js (App Router), TypeScript, and React.
+Aplikasi penghitung angka sederhana yang dibuat menggunakan Next.js (App Router), TypeScript, dan React.
 
-## Features
+## Fitur
 
-- Increment counter with `+1`
-- Decrement counter with `-1`
-- Reset counter to `0`
-- Minimum value limit: `0`
-- Maximum value limit: `10`
-- Counter value is persisted in `localStorage` so it stays after refresh
+- Menambah angka dengan tombol `+1`
+- Mengurangi angka dengan tombol `-1`
+- Mengatur ulang angka ke `0` dengan tombol `Reset`
+- Batas minimum nilai: `0`
+- Batas maksimum nilai: `10`
+- Nilai counter disimpan ke `localStorage` sehingga tidak hilang saat halaman di-refresh
 
-## Tech Stack
+## Teknologi yang Digunakan
 
 - Next.js 16
 - React 19
 - TypeScript
 - ESLint
 
-## Getting Started
+## Cara Menjalankan Proyek
 
 ### 1) Clone repository
 
@@ -27,28 +27,28 @@ git clone https://github.com/NAUFAL-str/nextjs-counter.git
 cd nextjs-counter
 ```
 
-### 2) Install dependencies
+### 2) Install dependency
 
 ```bash
 npm install
 ```
 
-### 3) Run development server
+### 3) Jalankan server development
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-## Available Scripts
+## Daftar Script
 
-- `npm run dev` - start development server
-- `npm run build` - build for production
-- `npm run start` - run production build
-- `npm run lint` - run linting
+- `npm run dev` - menjalankan server development
+- `npm run build` - build aplikasi untuk production
+- `npm run start` - menjalankan hasil build production
+- `npm run lint` - menjalankan pengecekan lint
 
-## Project Structure
+## Struktur Proyek
 
 ```text
 nextjs-counter/
@@ -61,12 +61,12 @@ nextjs-counter/
   tsconfig.json
 ```
 
-## Counter Behavior
+## Perilaku Counter
 
-- Default value: `0`
-- Value is clamped between `0` and `10`
-- `localStorage` key used: `simple-counter-value`
+- Nilai awal: `0`
+- Nilai selalu dijaga pada rentang `0` sampai `10`
+- Key `localStorage` yang digunakan: `simple-counter-value`
 
-## License
+## Lisensi
 
-This project is created for learning and personal use.
+Proyek ini dibuat untuk pembelajaran dan penggunaan pribadi.
