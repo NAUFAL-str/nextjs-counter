@@ -1,5 +1,6 @@
 "use client";
 
+import BMRCalculator from "./bmr-calculator";
 import BMICalculator from "./bmi-calculator";
 import IdealWeightCalculator from "./ideal-weight-calculator";
 
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       
       <div className="calculator-grid">
+        <BMRCalculator />
         <BMICalculator />
         <IdealWeightCalculator />
       </div>
